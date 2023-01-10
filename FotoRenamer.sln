@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logic", "Logic", "{0064A539-1274-4995-973F-E4E0E85B654E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{22C11E8F-1F51-49CE-ADC1-95D11A29FEC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewModel", "ViewModel", "{71EAA193-6561-4AE5-94AA-38601AF98DF2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FotoRenamer.UI.WPF", "UI\FotoRenamer.UI.WPF\FotoRenamer.UI.WPF.csproj", "{11343EB2-ACA6-4761-AFF5-6D1D043246C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FotoRenamer.Model", "Logic\FotoRenamer.Model\FotoRenamer.Model.csproj", "{7C537B73-3098-4DAF-8D68-272130AADFA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FotoRenamer.ViewModel", "ViewModel\FotoRenamer.ViewModel\FotoRenamer.ViewModel.csproj", "{244D6F50-6036-4630-B640-85935CC92A87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11343EB2-ACA6-4761-AFF5-6D1D043246C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11343EB2-ACA6-4761-AFF5-6D1D043246C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11343EB2-ACA6-4761-AFF5-6D1D043246C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11343EB2-ACA6-4761-AFF5-6D1D043246C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C537B73-3098-4DAF-8D68-272130AADFA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C537B73-3098-4DAF-8D68-272130AADFA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C537B73-3098-4DAF-8D68-272130AADFA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C537B73-3098-4DAF-8D68-272130AADFA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{244D6F50-6036-4630-B640-85935CC92A87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{244D6F50-6036-4630-B640-85935CC92A87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{244D6F50-6036-4630-B640-85935CC92A87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{244D6F50-6036-4630-B640-85935CC92A87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{11343EB2-ACA6-4761-AFF5-6D1D043246C9} = {22C11E8F-1F51-49CE-ADC1-95D11A29FEC8}
+		{7C537B73-3098-4DAF-8D68-272130AADFA6} = {0064A539-1274-4995-973F-E4E0E85B654E}
+		{244D6F50-6036-4630-B640-85935CC92A87} = {71EAA193-6561-4AE5-94AA-38601AF98DF2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DA7C6E9-E3D4-414C-B453-FE177B43C69D}
+	EndGlobalSection
+EndGlobal
